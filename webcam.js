@@ -45,7 +45,7 @@ function videoReady() {
 }
 
 async function setup() {
-  createCanvas(1000, 1000);
+  createCanvas();
   video = createCapture(VIDEO, videoReady);
   video.hide();
 
